@@ -67,6 +67,7 @@ header {
 .sidebar-container {
     display: grid;
     grid-template: 1fr 3fr 1fr / 1fr;
+    padding: 2vh 2vw;
 }
 
 .main-content {
