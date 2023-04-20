@@ -62,13 +62,12 @@ header {
     background-color: blue;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+    padding: 0 2vw;
 }
 
 .navbar-container {
     display: grid;
     grid-template: repeat(2, 1fr) / 1fr;
-    padding: 0 2vw;
-    align-items: center;
 }
 
 .Logo, .Home, .Profile, .Messages,
@@ -81,6 +80,12 @@ header {
     gap: 1.5vw;
     margin: 2.5vh 0;
     color: white;
+}
+
+.Logo {
+    width: 3.5vw;
+    height: 3.5h;
+    margin: 5vh 0 5vh 0;
 }
 
 .main-content {
