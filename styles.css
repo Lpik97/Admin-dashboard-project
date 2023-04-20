@@ -74,9 +74,9 @@ header {
     font: normal 600 1.5rem 'Robot', sans-serif;
 }
 
-.Logo, .Home, .Profile, .Messages,
-.History, .Tasks, .Communities,
-.Settings, .Support, .Privacy {
+.logo, .home, .profile, .messages,
+.history, .tasks, .communities,
+.settings, .support, .privacy {
     display: flex;
     align-items: center;
     width: 2.5vw;
@@ -86,7 +86,7 @@ header {
     color: rgba(255, 255, 255, .93);
 }
 
-.Logo {
+.logo {
     width: 3.5vw;
     height: 3.5vh;
     margin: 0 0 5vh 0;
