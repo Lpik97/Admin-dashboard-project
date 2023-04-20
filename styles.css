@@ -65,13 +65,13 @@ header {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
     padding: 0 2vw;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-container {
     display: grid;
     grid-template: repeat(2, 1fr) / 1fr;
-    font-size: 1.5rem;
+    font: normal 600 1.5rem 'Robot', sans-serif;
 }
 
 .Logo, .Home, .Profile, .Messages,
@@ -83,14 +83,14 @@ header {
     height: 2.5vh;
     gap: 1.5vw;
     margin: 2.5vh 0;
-    color: white;
+    color: rgba(255, 255, 255, .93);
 }
 
 .Logo {
     width: 3.5vw;
     height: 3.5vh;
     margin: 5vh 0 5vh 0;
-    font: normal 600 2rem 'Robot', sans-serif;
+    font: normal 600 2rem 'Roboto', sans-serif;
 }
 
 .main-content {
