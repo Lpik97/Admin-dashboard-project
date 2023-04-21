@@ -75,6 +75,9 @@ header {
     align-content: center;
     padding: 3vh 1.5vw;
     row-gap: 5vh;
+    box-shadow: 1px 9px 12px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 9px 12px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 9px 12px 0px rgba(0,0,0,1);
 }
 
 .search {
@@ -84,7 +87,7 @@ header {
 
 #text-input {
     width: 75%;
-    background-color: rgb(236, 236, 236) ;
+    background-color: rgb(236, 236, 236);
     font-size: 1.5rem;
     border-radius: 5px;
 }
@@ -135,6 +138,10 @@ header {
     background-color: rgb(48, 76, 128);
 }
 
+.action button:hover {
+    cursor: pointer;
+}
+
 .sidebar {
     background-color: rgb(48, 76, 128);
     grid-column: 1 / 2;
@@ -171,5 +178,5 @@ header {
 
 .main-content {
     grid-row: 2 / 4;
-    background-color: rgb(106, 117, 137);
+    background-color: rgb(236, 236, 236);
 }
