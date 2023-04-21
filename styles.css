@@ -60,6 +60,15 @@ header {
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template: repeat(2, 1fr) / 80% 20%;
+    align-content: center;
+    padding: 3vh 1.5vw;
+}
+
+.search {
+    display: flex;
+    width: 2.5vw;
+    height: 2.5vh;
+    gap: .5vw;
 }
 
 
