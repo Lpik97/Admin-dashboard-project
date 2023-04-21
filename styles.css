@@ -98,6 +98,10 @@ header {
     border-radius: 50%;
 }
 
+.notifications #name {
+    padding-top: 1vh;
+}
+
 .name, .text {
     white-space: nowrap;
     font: normal 600 1.4rem 'Robot', sans-serif;
