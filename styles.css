@@ -56,6 +56,18 @@ body {
     grid-template: 1fr 2fr 2fr/ 1fr 4fr;
 }
 
+.search div,
+.notifications div,
+.greetings div,
+.search input,
+.search img,
+.notifications img,
+.greetings img,
+.action button {
+  width: 50px;
+  height: 50px;
+}
+
 header {
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -91,10 +103,6 @@ header {
     font: normal 600 1.4rem 'Robot', sans-serif;
 }
 
-.text {
-    font: normal 500 1.2rem 'Robot', sans-serif;
-}
-
 .greetings {
     display: flex;
     gap: .5vw;
@@ -105,19 +113,24 @@ header {
     flex-direction: column;
 }
 
-.search div,
-.notifications div,
-.greetings div,
-.action button,
-.search input,
-.search img,
-.notifications img,
-.greetings img,
-.action button {
-  width: 50px;
-  height: 50px;
+.text {
+    font: normal 500 1.2rem 'Robot', sans-serif;
 }
 
+.action {
+    display: flex;
+    gap: .5vw;
+}
+
+.action button {
+    width: 100px;
+    border: none;
+    border-radius: 2vw;
+    font: normal 600 1.2rem 'Robot', sans-serif;
+    color: rgb(236, 236, 236);
+    background-color: rgb(48, 76, 128);
+
+}
 
 .sidebar {
     background-color: rgb(48, 76, 128);
