@@ -62,6 +62,7 @@ header {
     grid-template: repeat(2, 1fr) / 80% 20%;
     align-content: center;
     padding: 3vh 1.5vw;
+    row-gap: 5vh;
 }
 
 .search {
@@ -82,14 +83,26 @@ header {
 }
 
 .profile-picture {
-    width: 50%;
     border-radius: 50%;
 }
 
-.name {
-   padding-top: 1.5vh;
-   white-space: nowrap;
-   font: normal 500 1.5rem 'Robot', sans-serif;
+.name, .text {
+    white-space: nowrap;
+    font: normal 600 1.4rem 'Robot', sans-serif;
+}
+
+.text {
+    font: normal 500 1.2rem 'Robot', sans-serif;
+}
+
+.greetings {
+    display: flex;
+    gap: .5vw;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .search div,
