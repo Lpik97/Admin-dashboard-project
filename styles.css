@@ -239,6 +239,14 @@ header {
     display: grid;
     grid-template: repeat(3, 1fr) / 1fr;
     row-gap: 1vw;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#announces-grid {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .grid #announces-grid-title {
@@ -247,5 +255,12 @@ header {
 
 .grid #announces-grid-text {
     font: normal 500 .7rem 'Robot', sans-serif;
+    text-align: justify;
     color: rgb(37, 37, 37);
+}
+
+.divider-bar {
+    background-color:rgb(37, 37, 37);
+    height: 1px;
+    border-radius: 99%;
 }
