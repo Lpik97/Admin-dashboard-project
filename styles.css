@@ -65,6 +65,7 @@ body {
 .search img,
 .notifications img,
 .greetings img,
+.main-content img,
 .trending-grid img,
 .action button {
   width: 50px;
@@ -227,6 +228,11 @@ header {
     text-align: justify;
     font: normal 500 1.2rem 'Robot', sans-serif;
     color: rgb(37, 37, 37);
+}
+
+.icons-block {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .right-content {
