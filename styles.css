@@ -240,3 +240,12 @@ header {
     grid-template: repeat(3, 1fr) / 1fr;
     row-gap: 1vw;
 }
+
+.grid #announces-grid-title {
+    font: normal 600 .9rem 'Robot', sans-serif;
+}
+
+.grid #announces-grid-text {
+    font: normal 500 .7rem 'Robot', sans-serif;
+    color: rgb(37, 37, 37);
+}
