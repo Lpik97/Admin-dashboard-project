@@ -202,3 +202,13 @@ header {
     row-gap: 1vw;
     column-gap: 2vw;
 }
+
+.grid-title {
+    font: normal 600 1rem 'Robot', sans-serif;
+}
+
+.grid-text {
+    text-align: justify;
+    font: normal 500 1.2rem 'Robot', sans-serif;
+    color: rgb(37, 37, 37);
+}
