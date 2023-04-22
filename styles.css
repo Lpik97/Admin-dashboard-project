@@ -178,6 +178,7 @@ header {
 
 .main-content {
     display: flex;
+    gap: 1vw;
     padding: 3vh 1.5vw;
     grid-row: 2 / 4;
     background-color: rgb(236, 236, 236);
@@ -223,4 +224,13 @@ header {
     text-align: justify;
     font: normal 500 1.2rem 'Robot', sans-serif;
     color: rgb(37, 37, 37);
+}
+
+.right-content {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 1vw 1vw;
+    border: 1px inset black;
 }
