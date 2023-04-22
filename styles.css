@@ -178,6 +178,13 @@ header {
 
 .main-content {
     display: flex;
+    padding: 3vh 1.5vw;
     grid-row: 2 / 4;
     background-color: rgb(236, 236, 236);
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
 }
