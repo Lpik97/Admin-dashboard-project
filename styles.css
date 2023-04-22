@@ -234,3 +234,9 @@ header {
     padding: 1vw 1vw;
     border: 1px inset black;
 }
+
+.announces-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / 1fr;
+    row-gap: 1vw;
+}
