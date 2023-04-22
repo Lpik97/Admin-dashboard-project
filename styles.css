@@ -188,3 +188,8 @@ header {
     flex-direction: column;
     gap: 3vh;
 }
+
+.projects-title, .announces-title,
+.trending-title {
+    font: normal 600 1.4rem 'Robot', sans-serif;
+}
