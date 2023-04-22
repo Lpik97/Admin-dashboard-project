@@ -230,13 +230,13 @@ header {
     display: flex;
     flex-basis: 25%;
     flex-direction: column;
-    gap: 3vh;
+    gap: 3.5vh;
     padding: 1vw 1vw;
     border: 1px inset black;
 }
 
 .announces-title {
-    margin-bottom: 1.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .announces-grid {
@@ -268,7 +268,7 @@ header {
 }
 
 .trending-title {
-    margin-bottom: 1.5vw;
+    margin-bottom: .5vw;
 }
 
 .trending-grid {
