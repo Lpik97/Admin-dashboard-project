@@ -69,7 +69,7 @@ header {
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template: repeat(2, 1fr) / 80% 20%;
-    padding: 3vh 1.5vw;
+    padding: 3vh 2.5vw;
     row-gap: 5vh;
     box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
     -webkit-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
@@ -144,7 +144,8 @@ header {
     grid-template: repeat(3, min-content) / 1fr;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    padding: 3vh 1.5vw;
+    row-gap: 5vh;
+    padding: 3vh 2.5vw;
     font: normal 600 1.5rem 'Robot', sans-serif;
     background-color: rgb(48, 76, 128);
 }
