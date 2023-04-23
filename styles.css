@@ -188,15 +188,20 @@ header {
     column-gap: 1.5vw;
 }
 
-#projects-grid {
-    display: flex;
-    flex-direction: column;
+#projects-grid,
+.announces-grid,
+.trending-grid {
     border-radius: .3vw;
     padding: 1.5vh 1vw;
     box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
     -webkit-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
     -moz-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
     background-color: white;
+}
+
+#projects-grid {
+    display: flex;
+    flex-direction: column;
 }
 
 .grid-title {
@@ -224,23 +229,11 @@ header {
 .announces-grid {
     display: grid;
     grid-template: 1fr / 1fr;
-    border-radius: .3vw;
-    padding: 1.5vh 1vw;
     row-gap: 1vw;
-    background-color: white;
-    box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
-    -webkit-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
-    -moz-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
-}
-
-#announces-grid-title {
-    font: normal 600 .9rem 'Robot', sans-serif;
 }
 
 #announces-grid-text {
     font: normal 500 .8rem 'Robot', sans-serif;
-    text-align: justify;
-    color: rgb(37, 37, 37);
 }
 
 .divider-bar {
@@ -251,13 +244,7 @@ header {
 .trending-grid {
     display: grid;
     grid-template: repeat(4, 1fr) / 1fr;
-    border-radius: .3vw;
-    padding: 1.5vh 1vw;
     row-gap: 1vw;
-    background-color: white;
-    box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
-    -webkit-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
-    -moz-box-shadow: 1px 4px 5px 2px rgba(0,0,0,0.26);
 }
 
 #trending-grid {
@@ -265,12 +252,6 @@ header {
     gap: 0.5vw;
 }
 
-#trending-grid-title {
-    font: normal 600 1rem 'Robot', sans-serif;
-}
-
 #trending-grid-text {
     font: normal 500 .9rem 'Robot', sans-serif;
-    text-align: justify;
-    color: rgb(37, 37, 37);
 }
