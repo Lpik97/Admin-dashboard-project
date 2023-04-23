@@ -163,8 +163,8 @@ header {
 
 .main-content {
     display: flex;
-    gap: 1vw;
-    padding: 3vh 1.5vw;
+    gap: 2.5vw;
+    padding: 3vh 2.5vw;
     grid-row: 2 / 4;
     background-color: rgb(236, 236, 236);
 }
