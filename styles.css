@@ -48,15 +48,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End of reset */
+
 
 body {
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template: 1fr 2fr 2fr/ 1fr 4fr;
+    grid-template: 1fr repeat(2, 2fr) / 1fr 4fr;
 }
-/* End of reset */
-
 
 .search img,
 .notifications img,
