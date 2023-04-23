@@ -178,15 +178,13 @@ header {
     display: flex;
     flex-basis: 75%;
     flex-direction: column;
-    gap: 3vh;
-    padding: 1vw 1vw;
 }
 
 .projects-grid {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    row-gap: 1vw;
-    column-gap: 2vw;
+    row-gap: 1.5vw;
+    column-gap: 1.5vw;
 }
 
 #projects-grid {
