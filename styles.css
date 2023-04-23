@@ -143,10 +143,10 @@ header {
 
 .sidebar {
     display: grid;
-    grid-template: repeat(3, 1fr) / 1fr;
+    grid-template: repeat(3, min-content) / 1fr;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    padding: 0 1.5vw;
+    padding: 3vh 1.5vw;
     font: normal 600 1.5rem 'Robot', sans-serif;
     background-color: rgb(48, 76, 128);
 }
@@ -167,7 +167,6 @@ header {
     width: 3.5vw;
     height: 3.5vh;
     margin: 0 0 5vh 0;
-    padding-top: 5vh;
     font: normal 600 2rem 'Roboto', sans-serif;
 }
 
