@@ -220,10 +220,9 @@ header {
 }
 
 .right-content {
-    display: flex;
+    display: grid;
     flex-basis: 25%;
-    flex-direction: column;
-    gap: 6.6vh;
+    grid-template: repeat(2, 1fr) / 1fr;
 }
 
 .announces-grid {
