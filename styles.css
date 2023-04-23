@@ -218,7 +218,7 @@ header {
     display: flex;
     flex-basis: 25%;
     flex-direction: column;
-    gap: 9.5vh;
+    gap: 6.6vh;
 }
 
 .announces-grid {
@@ -238,7 +238,7 @@ header {
 }
 
 #announces-grid-text {
-    font: normal 500 .7rem 'Robot', sans-serif;
+    font: normal 500 .8rem 'Robot', sans-serif;
     text-align: justify;
     color: rgb(37, 37, 37);
 }
