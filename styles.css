@@ -171,6 +171,7 @@ header {
 
 .projects-title, .announces-title,
 .trending-title {
+    margin-bottom: 0.5vw;
     font: normal 600 1.4rem 'Robot', sans-serif;
 }
 
@@ -200,7 +201,6 @@ header {
 
 .grid-title {
     font: normal 600 1rem 'Robot', sans-serif;
-    margin-bottom: .5vh;
 }
 
 .grid-text {
@@ -219,10 +219,6 @@ header {
     flex-basis: 25%;
     flex-direction: column;
     gap: 3.5vh;
-}
-
-.announces-title {
-    margin-bottom: 0.5vw;
 }
 
 .announces-grid {
@@ -250,10 +246,6 @@ header {
 .divider-bar {
     background-color:rgb(140, 140, 140);
     height: 1px;
-}
-
-.trending-title {
-    margin-bottom: .5vw;
 }
 
 .trending-grid {
