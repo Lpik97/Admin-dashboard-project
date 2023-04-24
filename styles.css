@@ -216,6 +216,11 @@ header {
     color: rgb(37, 37, 37);
 }
 
+#media-icon {
+    width: 3vw;
+    height: 3vh;
+}
+
 .icons-block {
     display: flex;
     justify-content: flex-end;
@@ -225,7 +230,7 @@ header {
     display: grid;
     flex-basis: 25%;
     grid-template: repeat(2, 1fr) / 1fr;
-    row-gap: 6.3vh;
+    row-gap: 1vh;
 }
 
 .announces-grid {
