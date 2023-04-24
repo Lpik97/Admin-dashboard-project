@@ -225,6 +225,7 @@ header {
     display: grid;
     flex-basis: 25%;
     grid-template: repeat(2, 1fr) / 1fr;
+    row-gap: 6.3vh;
 }
 
 .announces-grid {
